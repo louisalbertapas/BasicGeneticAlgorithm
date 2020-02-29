@@ -77,11 +77,7 @@ def generate_new_name(parent_x, parent_y):
 
 def mutate_genes(population, population_size):
     old_population = population.copy()
-    i = 0
-
-    while i < 2:
-        population[i] = old_population[i]
-        i += 1
+    i = 2
 
     while i < population_size:
         parent_x_index = random.randint(0, int(population_size / 10))

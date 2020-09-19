@@ -1,5 +1,5 @@
-A simple genetic algorithm implementation
+# Basic Genetic Algorithm
 
-To run:
-
-python main.py
+```
+This is a basic implementation of Genetic Algorithm using Python.
+```
